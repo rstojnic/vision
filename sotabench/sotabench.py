@@ -21,3 +21,4 @@ ImageNet.benchmark(
     batch_size=256,
     num_gpu=1
 )
+
