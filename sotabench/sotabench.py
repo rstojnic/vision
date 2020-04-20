@@ -4,7 +4,7 @@ import torchvision.transforms as transforms
 import PIL
 
 # Define the transforms need to convert ImageNet data to expected model input
-normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.2245, 0.225])
+normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.2241, 0.225])
 input_transform = transforms.Compose([
     transforms.Resize(256, PIL.Image.BICUBIC),
     transforms.CenterCrop(224),
